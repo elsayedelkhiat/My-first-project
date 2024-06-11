@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    font-weight: 500;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav div {
+    padding: 20px;
+}
+
+nav div ul {
+    list-style-type: none;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+
+nav div ul a {
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+}
+
+nav div ul a:hover {
+    background-color: silver;
+}
+
+.a1 {
+    text-transform: uppercase;
+    font-size: 22px;
+
+}
+
+.a1 span {
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+
+main {
+    width: 85%;
+    margin: auto;
+    padding-top: 27px;
+    font-weight: 500;
+}
+
+img {
+    width: 100%;
+    border-style: none;
+}
+
+.control {
+    position: relative;
+}
+
+.condiv1 {
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    color: white;
+    white-space: nowrap;
+    word-spacing: 10px;
+}
+
+.control div h1 strong {
+    font-size: 45px;
+    background-color: black;
+    padding: 15px;
+    letter-spacing: 5px;
+    opacity: .6;
+    font-weight: 900;
+}
+
+.control div h1 span {
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 8px;
+    font-weight: 500;
+}
+
+.condiv3 p {
+    padding: 60px 0;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.control2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 20px 0;
+}
+
+.control2 .condiv4 {
+    position: relative;
+    width: 23.7%;
+}
+
+.control2 .condiv4 div {
+    position: absolute;
+}
+
+.control2 .condiv4 div p {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.pp {
+    width: 100%;
+    padding: 10px 0;
+    margin: 20px 0;
+    margin-right: 10%;
+}
+
+.pp .p1 {
+    padding: 15px 0;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.pp .p2 {
+    padding: 15px 0;
+    font-size: 13px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 20px;
+    white-space: wrap;
+}
+
+.control3 {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.condiv5 {
+    padding: 25px 0;
+    width: 23.6%;
+
+}
+
+.condiv5 h3 {
+    padding: 10px 0;
+    font-size: 20px;
+    text-transform: capitalize;
+    word-spacing: 8px;
+    letter-spacing: 1px;
+}
+
+.condiv5 .p1 {
+    padding: 10px 0;
+    font-size: 16px;
+    text-transform: capitalize;
+    word-spacing: 8px;
+    letter-spacing: 1px;
+    opacity: .5;
+}
+
+.condiv5 .p2 {
+    padding: 20px 0;
+    font-size: 13px;
+    text-transform: capitalize;
+    word-spacing: 2px;
+}
+
+.condiv5 .button {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border: none;
+}
+
+.condiv5 .button:hover {
+    background-color: silver;
+}
+
+.control4 {
+    margin-top: 70px;
+    padding: 20px 0;
+}
+
+.control4 form h3 {
+    padding: 30px 0;
+    text-transform: capitalize;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.control4 form p {
+    padding: 10px 0;
+    text-transform: capitalize;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.control4 .text {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px 0;
+    padding-left: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: ridge;
+}
+
+.control4 .submit {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    border: none;
+}
+
+.control4 .submit:hover {
+    background-color: silver;
+    cursor: pointer;
+}
+
+.control5 {
+
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    padding: 40px;
+    text-transform: capitalize;
+    white-space: 2px;
+}
+
+footer p span {
+    text-decoration: underline;
+}
+
+@media screen and (max-width:700px) {
+    .a1 {
+        text-transform: uppercase;
+        font-size: 22px;
+    }
+
+    .a1 span {
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+
+
+    main {
+        width: 100%;
+    }
+
+    .control {
+        position: relative;
+
+    }
+
+    .condiv1 {
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        color: white;
+        white-space: nowrap;
+        word-spacing: 10px;
+    }
+
+    .control div h1 strong {
+        font-size: 40px;
+        background-color: black;
+        padding: 15px 15px;
+        letter-spacing: 5px;
+        opacity: .6;
+    }
+
+    .control div h1 span {
+        display: none;
+    }
+
+    .control2 {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+
+        width: 90%;
+        margin: auto;
+    }
+
+    .control2 .condiv4 {
+        width: 96%;
+    }
+
+    .pp {
+        width: 90%;
+        margin: auto;
+    }
+
+    .control3 {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+
+        width: 90%;
+        margin: auto;
+    }
+
+    .condiv3 {
+        width: 90%;
+        margin: auto;
+    }
+
+
+    .condiv5 {
+        width: 96%;
+    }
+
+    .control4 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .control5 {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:991px) {
+    main {
+        width: 100%;
+        margin: auto;
+    }
+
+    .control {
+        width: 100%;
+        margin: auto;
+    }
+
+    .control2 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 85%;
+        margin: auto;
+    }
+
+    .condiv3 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .control2 .condiv4 {
+        width: 47%;
+    }
+
+    .pp {
+        width: 80%;
+        margin: auto;
+    }
+
+    .control3 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+    }
+
+    .condiv5 {
+        width: 45%;
+
+    }
+
+    .control4 {
+        width: 85%;
+        margin: auto;
+    }
+
+    .control5 {
+        width: 85%;
+        margin: auto;
+    }
+}
